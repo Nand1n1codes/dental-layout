@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#e0f7fa,#fce4ec);
+padding:40px;
+}
+
+.section{
+max-width:1100px;
+margin:auto;
+}
+
+.title{
+font-size:28px;
+font-weight:600;
+margin-bottom:25px;
+}
+
+.contact-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:30px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:20px;
+box-shadow:0 15px 40px rgba(0,0,0,0.08);
+}
+
+input{
+width:100%;
+padding:14px;
+border-radius:12px;
+border:1px solid #eee;
+margin-bottom:15px;
+font-size:14px;
+transition:.2s;
+}
+
+input:focus{
+outline:none;
+border-color:#0ea5e9;
+box-shadow:0 0 0 3px rgba(14,165,233,0.1);
+}
+
+.btn{
+width:100%;
+padding:14px;
+border:none;
+border-radius:30px;
+background:linear-gradient(90deg,#0ea5e9,#ec4899);
+color:white;
+font-size:15px;
+cursor:pointer;
+transition:.3s;
+}
+
+.btn:hover{
+transform:scale(1.03);
+}
+
+.map{
+width:100%;
+height:250px;
+border:none;
+border-radius:15px;
+margin-top:15px;
+}
+
+.info{
+margin-top:20px;
+}
+
+.info h3{
+margin-bottom:10px;
+}
+
+.timing{
+background:#f8fafc;
+padding:15px;
+border-radius:12px;
+color:#444;
+line-height:1.6;
+}
+
+@media(max-width:900px){
+.contact-grid{
+grid-template-columns:1fr;
+}
+}
+
+</style>
+</head>
+
+<body>
+
+<section class="section">
+
+<div class="title">Book Appointment</div>
+
+<div class="contact-grid">
+
+<!-- Form -->
+<div class="card">
+
+<form>
+<input placeholder="Your Name" required>
+<input placeholder="Phone Number" required>
+<button class="btn">Request Callback</button>
+</form>
+
+<div class="info">
+<h3>Emergency Timing</h3>
+
+<div class="timing">
+Mon-Sat: 10AM – 8PM <br>
+Sunday: 11AM – 4PM
+</div>
+
+</div>
+
+</div>
+
+<!-- Map -->
+<div class="card">
+
+<h3>Clinic Location</h3>
+
+<iframe 
+class="map"
+src="https://maps.google.com/maps?q=Lucknow&t=&z=13&ie=UTF8&iwloc=&output=embed">
+</iframe>
+
+</div>
+
+</div>
+
+</section>
+
+</body>
+</html>

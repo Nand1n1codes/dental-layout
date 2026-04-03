@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Services - SmileCare Dental</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#e0f7fa,#fce4ec);
+padding:60px 40px;
+}
+
+.section{
+max-width:1200px;
+margin:auto;
+}
+
+.section-header{
+text-align:center;
+margin-bottom:40px;
+}
+
+.section-header h2{
+font-size:32px;
+margin-bottom:10px;
+}
+
+.section-header p{
+color:#666;
+}
+
+.services-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:30px;
+}
+
+.service-card{
+background:white;
+border-radius:20px;
+overflow:hidden;
+box-shadow:0 15px 40px rgba(0,0,0,.06);
+transition:.35s;
+position:relative;
+}
+
+.service-card:hover{
+transform:translateY(-10px);
+box-shadow:0 25px 60px rgba(0,0,0,.12);
+}
+
+.service-img{
+height:220px;
+overflow:hidden;
+position:relative;
+}
+
+.service-img img{
+width:100%;
+height:100%;
+object-fit:cover;
+transition:.6s;
+}
+
+.service-card:hover img{
+transform:scale(1.08);
+}
+
+.badge{
+position:absolute;
+top:15px;
+left:15px;
+background:white;
+padding:6px 12px;
+border-radius:20px;
+font-size:12px;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.service-content{
+padding:25px;
+}
+
+.service-title{
+font-size:19px;
+font-weight:600;
+margin-bottom:10px;
+}
+
+.service-desc{
+color:#666;
+font-size:14px;
+line-height:1.6;
+margin-bottom:20px;
+}
+
+.book-btn{
+background:linear-gradient(90deg,#0ea5e9,#ec4899);
+color:white;
+padding:11px 20px;
+border-radius:30px;
+text-decoration:none;
+font-size:14px;
+display:inline-block;
+transition:.3s;
+}
+
+.book-btn:hover{
+transform:scale(1.05);
+}
+
+</style>
+
+</head>
+
+<body>
+
+<section class="section">
+
+<div class="section-header">
+<h2>Our Dental Services</h2>
+<p>Advanced painless treatments for your smile</p>
+</div>
+
+<div class="services-grid">
+
+<!-- Card -->
+<div class="service-card">
+<div class="service-img">
+<span class="badge">Popular</span>
+<img src="https://images.unsplash.com/photo-1606813907291-d86efa9b94db">
+</div>
+<div class="service-content">
+<div class="service-title">Root Canal Treatment</div>
+<div class="service-desc">
+Painless single sitting treatment to save infected teeth.
+</div>
+<a class="cta-white" href="contact.html">
+Book Appointment
+</a>
+</div>
+</div>
+
+<div class="service-card">
+<div class="service-img">
+<span class="badge">Advanced</span>
+<img src="https://images.unsplash.com/photo-1600170311833-c2cf5280ce49">
+</div>
+<div class="service-content">
+<div class="service-title">Dental Implants</div>
+<div class="service-desc">
+Permanent titanium implants replacing missing teeth.
+</div>
+<a class="cta-white" href="contact.html">
+Book Appointment
+</a>
+</div>
+</div>
+
+<div class="service-card">
+<div class="service-img">
+<span class="badge">Modern</span>
+<img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09">
+</div>
+<div class="service-content">
+<div class="service-title">Braces & Aligners</div>
+<div class="service-desc">
+Invisible aligners and braces for straight teeth.
+</div>
+<a class="cta-white" href="contact.html">
+Book Appointment
+</a>
+</div>
+</div>
+
+<div class="service-card">
+<div class="service-img">
+<span class="badge">Cosmetic</span>
+<img src="https://images.unsplash.com/photo-1598256989800-fe5f95da9787">
+</div>
+<div class="service-content">
+<div class="service-title">Teeth Whitening</div>
+<div class="service-desc">
+Laser whitening to brighten your smile.
+</div>
+<a class="cta-white" href="contact.html">
+Book Appointment
+</a>
+</div>
+</div>
+
+<div class="service-card">
+<div class="service-img">
+<span class="badge">Restoration</span>
+<img src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe">
+</div>
+<div class="service-content">
+<div class="service-title">Crowns & Bridges</div>
+<div class="service-desc">
+Zirconia ceramic caps for damaged teeth.
+</div>
+<a class="cta-white" href="contact.html">
+Book Appointment
+</a>
+</div>
+</div>
+
+<div class="service-card">
+<div class="service-img">
+<span class="badge">Cleaning</span>
+<img src="https://images.unsplash.com/photo-1581594693702-fbdc51b2763b">
+</div>
+<div class="service-content">
+<div class="service-title">Scaling & Polishing</div>
+<div class="service-desc">
+Professional deep cleaning and tartar removal.
+</div>
+<a class="cta-white" href="contact.html">
+Book Appointment
+</a>
+</div>
+</div>
+
+</div>
+
+</section>
+
+</body>
+</html>

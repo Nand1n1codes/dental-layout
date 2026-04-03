@@ -1,0 +1,166 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins', sans-serif;
+}
+
+body{
+background:#f7f8ff;
+color:#1f2937;
+}
+
+/* NAVBAR */
+
+.nav{
+position:fixed;
+top:0;
+width:100%;
+background:rgba(255,255,255,.8);
+backdrop-filter:blur(10px);
+padding:18px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+z-index:1000;
+border-bottom:1px solid rgba(0,0,0,.05);
+}
+
+.logo{
+font-size:22px;
+font-weight:600;
+background:linear-gradient(90deg,#ff4fa3,#4f8cff);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+}
+
+.nav-links a{
+margin:0 15px;
+text-decoration:none;
+color:#374151;
+font-weight:500;
+}
+
+.call-btn{
+background:linear-gradient(135deg,#ff4fa3,#4f8cff);
+color:white;
+padding:12px 24px;
+border-radius:40px;
+text-decoration:none;
+font-weight:500;
+box-shadow:0 10px 25px rgba(79,140,255,.3);
+}
+
+/* HERO */
+
+.hero{
+min-height:100vh;
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:120px 8% 60px;
+background:
+linear-gradient(120deg,#ffe6f3 0%,#e8f0ff 100%);
+}
+
+.hero-box{
+max-width:520px;
+}
+
+.hero h1{
+font-size:48px;
+line-height:1.2;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:18px;
+color:#6b7280;
+margin-bottom:25px;
+}
+
+.btn{
+background:linear-gradient(135deg,#ff4fa3,#4f8cff);
+padding:14px 28px;
+color:white;
+text-decoration:none;
+border-radius:40px;
+display:inline-block;
+font-weight:500;
+box-shadow:0 10px 30px rgba(255,79,163,.25);
+}
+
+/* HERO IMAGE */
+
+.hero-img{
+width:480px;
+border-radius:30px;
+box-shadow:0 30px 60px rgba(0,0,0,.1);
+}
+
+/* TRUST CARDS */
+
+.trust{
+display:flex;
+gap:15px;
+margin-top:35px;
+}
+
+.trust-box{
+background:white;
+padding:18px;
+border-radius:18px;
+box-shadow:0 10px 30px rgba(0,0,0,.05);
+font-size:14px;
+font-weight:500;
+}
+
+/* SERVICES */
+
+.section{
+padding:80px 8%;
+}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+gap:25px;
+margin-top:30px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:20px;
+box-shadow:0 15px 40px rgba(0,0,0,.05);
+transition:.35s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+box-shadow:0 25px 60px rgba(0,0,0,.08);
+}
+
+/* WHATSAPP */
+
+.whatsapp{
+position:fixed;
+bottom:25px;
+right:25px;
+background:linear-gradient(135deg,#ff4fa3,#4f8cff);
+color:white;
+padding:16px;
+border-radius:50%;
+font-size:22px;
+text-decoration:none;
+box-shadow:0 10px 25px rgba(0,0,0,.2);
+}
+
+/* FOOTER */
+
+.footer{
+background:#0f172a;
+color:white;
+padding:40px;
+text-align:center;
+}
