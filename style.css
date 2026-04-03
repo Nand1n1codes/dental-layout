@@ -282,3 +282,29 @@ padding:30px 20px;
 }
 
 }
+.hero-img{
+width:100%;
+max-width:480px;
+height:auto;
+}
+
+.hero-box{
+width:100%;
+}
+
+.nav{
+flex-wrap:wrap;
+gap:10px;
+}
+
+@media (max-width:768px){
+
+.nav{
+flex-wrap:nowrap;
+}
+
+.call-btn{
+white-space:nowrap;
+}
+
+}
